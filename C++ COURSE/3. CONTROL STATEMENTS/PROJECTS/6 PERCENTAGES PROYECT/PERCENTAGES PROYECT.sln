@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PERCENTAGES PROYECT", "PERCENTAGES PROYECT\PERCENTAGES PROYECT.vcxproj", "{F29C324E-3BAD-4FA8-A30D-C582D9863FCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F29C324E-3BAD-4FA8-A30D-C582D9863FCD}.Debug|x64.ActiveCfg = Debug|x64
+		{F29C324E-3BAD-4FA8-A30D-C582D9863FCD}.Debug|x64.Build.0 = Debug|x64
+		{F29C324E-3BAD-4FA8-A30D-C582D9863FCD}.Debug|x86.ActiveCfg = Debug|Win32
+		{F29C324E-3BAD-4FA8-A30D-C582D9863FCD}.Debug|x86.Build.0 = Debug|Win32
+		{F29C324E-3BAD-4FA8-A30D-C582D9863FCD}.Release|x64.ActiveCfg = Release|x64
+		{F29C324E-3BAD-4FA8-A30D-C582D9863FCD}.Release|x64.Build.0 = Release|x64
+		{F29C324E-3BAD-4FA8-A30D-C582D9863FCD}.Release|x86.ActiveCfg = Release|Win32
+		{F29C324E-3BAD-4FA8-A30D-C582D9863FCD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34AE8878-F3F3-47D5-800D-E0530EFD41AA}
+	EndGlobalSection
+EndGlobal

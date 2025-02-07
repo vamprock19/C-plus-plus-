@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PIZZA_CLASS", "PIZZA_CLASS\PIZZA_CLASS.vcxproj", "{DBAE1EAB-5263-436F-A030-62724298E848}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBAE1EAB-5263-436F-A030-62724298E848}.Debug|x64.ActiveCfg = Debug|x64
+		{DBAE1EAB-5263-436F-A030-62724298E848}.Debug|x64.Build.0 = Debug|x64
+		{DBAE1EAB-5263-436F-A030-62724298E848}.Debug|x86.ActiveCfg = Debug|Win32
+		{DBAE1EAB-5263-436F-A030-62724298E848}.Debug|x86.Build.0 = Debug|Win32
+		{DBAE1EAB-5263-436F-A030-62724298E848}.Release|x64.ActiveCfg = Release|x64
+		{DBAE1EAB-5263-436F-A030-62724298E848}.Release|x64.Build.0 = Release|x64
+		{DBAE1EAB-5263-436F-A030-62724298E848}.Release|x86.ActiveCfg = Release|Win32
+		{DBAE1EAB-5263-436F-A030-62724298E848}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A18A487-5FE5-44BD-97AB-208611FDFAC8}
+	EndGlobalSection
+EndGlobal

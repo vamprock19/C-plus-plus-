@@ -1,5 +1,6 @@
 #include<iostream>
 #include"Node.h"
+#include<string>
 
 using namespace std;
 
@@ -13,7 +14,7 @@ int main()
 	theHead = createChain();
 	printChain(theHead);
 	deleteChain(theHead);
-
+	
 	return 0;
 }
 
@@ -40,9 +41,14 @@ void deleteChain(Node*& head)
 void printChain(Node* head)
 {
 	Node* walker = head;
+	int counter = 0;
+
+
 	while (walker != nullptr)
 	{
 		cout << walker->getData() << endl;
 		walker = walker->getNext();
+		counter++;
 	}
+	cout << "Number of elements: " << counter << endl;
 }

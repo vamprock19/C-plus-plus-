@@ -24,27 +24,30 @@ Node* createChain()
 
 	for (int i = 0; i < 25; i++)
 	{
-		head = new Node(i, head);
+		head = new Node(i, head); //Node(data, node's name)
 	}
 	return head;
 }
-void deleteChain(Node*& head)
+void deleteChain(Node*& head) /* *& ensures we can modify the original pointer
+							  outside the function/method */
 {
 	Node* nodeToDelete;
-	while (head != nullptr)
+
+
+	while (head != nullptr) // the head still valid until null
 	{
 		nodeToDelete = head;
 		head = head->getNext();
 		delete nodeToDelete;
 	}
 }
-void printChain(Node* head)
+void printChain(Node* head) // 
 {
-	Node* walker = head;
+	Node* walker = head; // walker copies the data of the head
 	int counter = 0;
 
 
-	while (walker != nullptr)
+	while (walker != nullptr) // nullptr is the value after the tail
 	{
 		cout << walker->getData() << endl;
 		walker = walker->getNext();

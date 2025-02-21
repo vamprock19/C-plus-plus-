@@ -14,7 +14,7 @@ public:
 	virtual int remove(int position) = 0;
 	virtual void makeEmpty() = 0;
 
-	virtual void size()const = 0;
+	virtual int size()const = 0;
 	virtual bool isEmpty()const = 0;
 	virtual void printList()const = 0;
 

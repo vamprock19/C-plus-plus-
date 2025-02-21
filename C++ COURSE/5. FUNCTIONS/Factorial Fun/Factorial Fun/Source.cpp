@@ -6,7 +6,7 @@ int factorial(int numF);
 
 int main()
 {
-	int result = factorial(7);
+	int result = factorial(16);
 	cout << result << endl;
 	return 0;
 }
